@@ -48,6 +48,9 @@ jobs:
         run: npm ci
       - name: Run the "npm run build" command
         run: npm run build
+      - name: Add execute permission to script
+        run: |
+          chmod +x script/check-english-links.js
       # This `run` command executes a script that is stored in the repository at `script/check-english-links.js`, and pipes the output to a file called `broken_links.md`.
       - name: Run script
         run: |
