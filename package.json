@@ -1,0 +1,7 @@
+{
+  "name": "github-action-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:qinzehua/github-action-learn.git",
+  "license": "MIT"
+}
